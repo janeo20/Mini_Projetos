@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.con{
+    margin-left: 10px;
+}
+
+.cal-h2 h2{
+    margin: 10px;
+}
+
+.calculo{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.cal-salario{
+    margin-right: 20px;
+}
+.cal-salario p{
+    color: #373737;
+    padding: 0px 0px 0px 2px;
+    font-size: 16px;
+}
+
+.cal-sal-inp{
+    background-color: #E6EFFF;
+    border-radius: 10px ;
+}
+
+.cal-sal-inp input{
+    background-color: #E6EFFF;
+    border: none;
+    height: 50px;
+    width: 285px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 5px;
+}
+
+.cal-sal-inp label{
+   height: 50px;
+   width: 44.06px;
+   font-size: 16px;
+   padding: 4px 22px 0px 2px;
+   color: #373737;
+}
+
+.cal-dependentes p{
+    color: #373737;
+    padding: 0px 0px 0px 2px;
+    font-size: 16px;
+}
+
+.cal-dep-inp input{
+    background-color: #E6EFFF;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 326px;
+    padding: 0px 0px 0px 10px;
+}
+
+.cal-but{
+    display: flex;
+    justify-content: center;
+    width: 725px;
+    height: 77px;
+}
+
+.but-lim{
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    padding: 13px 40px 9px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.but-lim:hover{
+    background-color: rgb(147, 0, 0);
+}
+
+.but-cal{
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #0071FF;
+    padding: 13px 40px 9px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.but-cal:hover{
+    background-color: #003d88;
+}
+
+.resultado{
+
+}
+
+.resultado h2{
+    font-size: 21px;
+    color: #373737;
+    margin-bottom: 10px;
+}
+
+.resultado p{
+    width: 700px;
+    height: 31px;
+    background-color: #E6EFFF;
+    padding: 14px 12px 12px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
